@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:3000"; // your backend URL
+const API_BASE = "https://globetrotter-k8bp.onrender.com"; // your backend URL
 
 export const fetchRandomQuestion = async () => {
   const response = await fetch(`${API_BASE}/api/v1.0/game/destination`);
